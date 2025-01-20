@@ -58,10 +58,32 @@
             <p>If you are interested in my services or have any questions, please feel free to reach out to me:</p>
             <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+            <button id="modalBtn">Open Modal</button>
         </section>
+        <!-- Add Form -->
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- Modal -->
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <p>This is a simple modal.</p>
+            </div>
+        </div>
     </div>
     <footer>
         <p>&copy; 2025 AI and Automation Consultancy. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
